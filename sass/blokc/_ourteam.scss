@@ -1,0 +1,227 @@
+.ourteam{
+    background-image: url('/img/background_team.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    &-title{
+        color: #1b1b1b;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 130%;
+        padding-top: 130px;
+    }
+    &-subtitle{
+        color: #8a8a8a;
+        margin-top: 12px;
+        width: 50%;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    &-parent{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        width: 100%;
+        &-card{
+            width: 19%;
+        }
+        &-subtitle{
+            color: #1b1b1b;
+            font-size: 14px;
+            line-height: 150%;
+            width: 70%;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        &-subtitle2{
+            color: #5c5c5c;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 130%;
+            margin-top: 5px;
+        }
+        &-img{
+            width: 230px;
+            height: 260px;
+            border-radius: 10px;
+        }
+    }
+    &-link{
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 75px;
+    }
+}
+.ourteam-parent5{
+    display: flex;
+    align-items: center;
+    &-title{
+        color: #1B1B1B;
+        font-size: 20px;
+        line-height: 160%;
+        margin-right: auto;
+    }
+    &-subtitle{
+        color: #5C5C5C;
+        font-size: 16px;
+        line-height: 160%;
+        margin-right: 50px;
+    }
+    &-subtitle2{
+        color: #DA4533;
+        line-height: 160%;
+        font-size: 16px;
+    }
+}
+.ourteam-parent6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    align-items: center;
+    margin-bottom: 65px;
+}
+.ourteam-parent7{
+    display: flex;
+    align-items: center;
+    // flex-wrap: wrap;
+    width: 45%;
+    justify-content: space-between;
+}
+.parent7-title{
+    color: #1B1B1B;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.parent7-subtitle{
+    color: #5c5c5c;
+    font-size: 16px;
+    line-height: 160%;
+}
+.vector-card{
+    text-align: center;
+}
+
+
+@media screen and (max-width:1175px) {
+    .container{
+        max-width: 1175px;
+    }
+    .ourteam-img4{
+        display: none;
+    }
+    .ourteam-parent-card {
+        width: 32%;
+    }
+    .ourteam-parent-img {
+        width: 307px;
+        height: 340px;
+    }
+    .ourteam-subtitle{
+        width: 60%;
+    }
+}
+@media screen and (max-width:952px) {
+    .container{
+        max-width: 952px;
+    }
+    .ourteam-parent-img{
+        width: 200px;
+        height: 220px;
+    }
+    .ourteam-subtitle {
+        width: 80%;
+    }
+    .ourteam-parent{
+        justify-content: center;
+    }
+    .ourteam-subtitle {
+        width: 100%;
+    }
+    .ourteam-parent-subtitle2{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .container{
+        max-width: 680px;
+    }
+    .ourteam-parent{
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:640px) {
+    .container{
+        max-width: 640px;
+    }
+    .ourteam-parent-img {
+        width: 170px;
+        height: 191px;
+    }
+}
+@media screen and (max-width:550px) {
+    .container{
+        max-width: 550px;
+    }
+    .ourteam-img3{
+        display: none;
+    }
+    .ourteam-title {
+        font-size: 25px;
+        padding-top: 80px;
+    }
+    .ourteam-subtitle{
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    .ourteam-parent-card {
+        width: 49%;
+    }
+    .ourteam-parent-img {
+        width: 230px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:490px) {
+    .container{
+        max-width: 490px;
+    }
+    .ourteam-parent-img {
+        width: 200px;
+        height: 230px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .container{
+        max-width: 420px;
+    }
+    .ourteam-card2{
+        display: none;
+    }
+    .ourteam-parent-card {
+        width: 100%;
+        text-align: center;
+    }
+    .ourteam-title{
+        text-align: center;
+    }
+    .ourteam-parent-subtitle {
+        width: 100%;
+    }
+    .ourteam-parent-subtitle2 {
+        width: 100%;
+    }
+    .ourteam-subtitle{
+        text-align: center;
+    }
+    .ourteam-parent-img {
+        width: 300px;
+        height: 320px;
+        text-align: center;
+    }
+}

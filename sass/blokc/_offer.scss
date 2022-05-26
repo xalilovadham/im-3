@@ -1,0 +1,188 @@
+.offer{
+    background-color: #da4533;
+    &-bg{
+        display: none;
+    }
+    &-bg2{
+        width: 600px;
+        height: 400px;
+        background: #1B1B1B;
+    }
+    &-bg3{
+        width: 600px;
+        height: 300px;
+        background-color: #1B1B1B;
+        margin-top: 20px;
+    }
+    &-title{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 135%;
+        color: #FFFFFF;
+        padding-top: 150px;
+    }
+    &-subtitle{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+        opacity: 0.75;
+        margin-top: 14px;
+    }
+    &-parent{
+        width: 70%;
+        background-color: #1B1B1B;
+        border-radius: 10px;
+        display: flex;
+        justify-content:space-between ;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 20px;
+        margin-top: 40px;
+        &-title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 160%;
+            color: #FFFFFF;
+            width: 50%;
+        }
+        &-subtitle{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 45px;
+            color: #DA4533;
+        }
+        &-subtitle2{
+            color: #FFFFFF;
+        }
+        &__card{
+            width: 49%;
+            background: rgba(255, 255, 255, 0.05);
+            height: 50px;
+            align-items: center;
+            display: flex;
+            padding: 10px;
+            margin-bottom: 10px;
+            &-subtitle{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 160%;
+                color: #F9F9F9;
+            }
+        }
+    }
+    &-link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #DA4533;
+        border-radius: 50%;
+        padding: 9px 18px;
+        border: 1px solid #DA4533;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    &-title2{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 160%;
+        color: #FFFFFF;
+        margin-top: 40px;
+    }
+    &-parent2{
+        display: flex;
+        background-color: #1B1B1B;
+        height: 100px;
+        width: 350px;
+        margin-right: 20px;
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 150px;
+        padding:  10px;
+        &__subtitle{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 160%;
+            color: #FFFFFF;
+            margin-left: 37px;
+        }
+        &__img{
+            width: 50px;
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container{
+        max-width: 1000px;
+    }
+    .offer-max{
+        display: none;
+    }
+    .offer-bg{
+        display: block;
+        position: relative;
+        height: 680px;
+        &__img{
+            position: absolute;
+            right: 0;
+            top: -100px;
+        }
+    }
+    
+    .offer-bg2 {
+        width: 530px;
+        height: 300px;
+        transform: translateY(100px);
+    }
+    .offer-bg3 {
+        width: 530px;
+        height: 200px;
+        transform: translateY(100px);
+    }
+
+}
+@media screen and (max-width:860px) {
+    .container{
+        max-width: 860px;
+    }
+    .offer-bg2 {
+        width: 450px;
+        height: 250px;
+    }
+    .offer-bg3{
+        width: 450px;
+        height: 150px;
+    }
+    .offer-bg__img{
+        width: 160px;
+        top: -48px;
+    }
+    .offer-bg{
+        height: 570px;
+    }
+}
+@media screen and (max-width:506px) {
+    .container{
+        max-width: 506px;
+    }
+    .offer-bg2 {
+        width: 100%;
+        height: 45vh;
+    }
+    .offer-bg3{
+        width: 100%;
+        height: 35vh;
+    }
+    .offer-bg{
+        height: 100vh;
+    }
+}

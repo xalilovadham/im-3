@@ -1,0 +1,120 @@
+.help{
+    background:linear-gradient( #cf4231 100%, #cf4231 100%),url("/img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    &-parent{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &-title{
+        font-size: 33px;
+        color: #ffffff;
+        line-height: 135%;
+        width: 80%;
+        margin-top: 100px;
+    }
+    &-subtitle{
+        font-size: 16px;
+        color: #ffffff;
+        opacity: 0.7;
+        line-height: 160%;
+    }
+    &-subtitle2{
+        font-size: 16px;
+        line-height: 160%;
+        color: #ffffff;
+        background-color: #1b1b1b;
+        border-radius: 50%;
+        padding: 20px 30px;
+        text-align: center;
+        width: 40%;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .container{
+        max-width: 1000px;
+    }
+    .help-title{
+        font-size: 24px;
+        margin-top: 86px;
+    }
+    .help-img{
+        width: 280px;
+        width: 281px;
+    }
+    .help-subtitle2{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:856px) {
+    .container{
+        max-width: 856px;
+    }
+    .help-subtitle2{
+        width: 50%;
+    }
+    .help-title{
+        width: 80%;
+        font-size: 20px;
+    }
+    .help-subtitle{
+        width: 80%;
+    }
+    .help-img{
+        width: 240px;
+        height: 241px;
+    }
+}
+@media screen and (max-width:700px) {
+    .container{
+        max-width: 700px;
+    }
+    .help-title{
+        font-size: 17px;
+        margin-top: 70px;
+    }
+    .help-subtitle{
+        font-size: 14px;
+    }
+    .help-img {
+        width: 200px;
+        height: 201px;
+    }
+    .help-subtitle2{
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 60%;
+    }
+}
+@media screen and (max-width:525px) {
+    .container{
+        max-width: 525px;
+    }
+    .help-img{
+        display: none;
+    }
+    .help-parent{
+        justify-content: center;
+    }
+    .help-parent2{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .help-title{
+        width: 100%;
+    }
+    .help-subtitle {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .help-subtitle2 {
+        padding: 21px 55px;
+        font-size: 14px;
+        width: 100%;
+    }
+}
